@@ -34,7 +34,7 @@
         '<span class="sep"></span>' +
         '<a class="ghost-sm" href="owners.html#proposal">Owner Login</a>' +
         '<span class="sep"></span>' +
-        '<a href="tel:+12135550182"><svg viewBox="0 0 24 24" fill="none"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg> (213) 555-0182</a>' +
+        '<a href="tel:+16693037340"><svg viewBox="0 0 24 24" fill="none"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg> (669) 303-7340</a>' +
       "</div>" +
     "</div></div>" +
     '<header class="site-header"><div class="wrap nav">' +
@@ -52,7 +52,7 @@
       '<div class="footer-grid">' +
         '<div class="footer-about">' +
           '<a class="brand" href="index.html">' + MARK + "<span>Loby<small>Property Management</small></span></a>" +
-          "<p>Full-service multifamily management across Los Angeles — 2,000 homes and counting, run with care for residents and owners alike.</p>" +
+          "<p>Full-service multifamily management across Los Angeles — 2,123 homes and counting, run with care for residents and owners alike.</p>" +
           '<div class="footer-social">' +
             '<a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.7"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>' +
             '<a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.7"/><path d="M7 10v7M7 7v.01M11 17v-4a2 2 0 0 1 4 0v4M11 17v-7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>' +
@@ -61,7 +61,7 @@
         "</div>" +
         '<div class="footer-col"><h4>Explore</h4><ul><li><a href="properties.html">Find a home</a></li><li><a href="properties.html">Communities</a></li><li><a href="residents.html">Resident portal</a></li><li><a href="index.html#about">About us</a></li></ul></div>' +
         '<div class="footer-col"><h4>Owners</h4><ul><li><a href="owners.html">Management services</a></li><li><a href="owners.html#proposal">Request a proposal</a></li><li><a href="owners.html">Owner login</a></li><li><a href="index.html#contact">Contact us</a></li></ul></div>' +
-        '<div class="footer-col"><h4>Contact</h4><ul><li><a href="tel:+12135550182">(213) 555-0182</a></li><li><a href="mailto:hello@lobypm.com">hello@lobypm.com</a></li><li>3550 Wilshire Blvd, #1400</li><li>Los Angeles, CA 90010</li></ul></div>' +
+        '<div class="footer-col"><h4>Contact</h4><ul><li><a href="tel:+16693037340">(669) 303-7340</a></li><li><a href="mailto:hello@lobypm.com">hello@lobypm.com</a></li><li>3550 Wilshire Blvd, #1400</li><li>Los Angeles, CA 90010</li></ul></div>' +
       "</div>" +
       '<div class="footer-assoc">Proud member · <b>Apartment Association of Greater Los Angeles</b> · <b>National Apartment Association</b> · <b>IREM</b></div>' +
       '<div class="footer-bottom">' +
