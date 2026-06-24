@@ -246,9 +246,12 @@
     var p = P.filter(function (x) { return x.id === id; })[0] || P[0];
     document.title = p.name + " — Loby Property Management";
 
-    var thumbs = p.gallery.map(function (g, i) {
-      return '<button class="' + (i === 0 ? "active" : "") + '" onclick="lobySwapHero(\'' + img(g, 1100) + "','" + i + "')\" aria-label=\"Photo " + (i + 1) + '"><img src="' + img(g, 360) + '" alt="' + p.name + " photo " + (i + 1) + '" /></button>';
-    }).join("");
+    // One real cover photo per community; remaining slots are honest
+    // "Coming soon" placeholders (we don't reuse stock interiors across buildings).
+    var thumbs = '<button class="active" aria-label="' + p.name + ' exterior"><img src="' + img(p.hero, 360) + '" alt="' + p.name + '" /></button>';
+    for (var ti = 0; ti < 4; ti++) {
+      thumbs += '<div class="soon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8.5" cy="10" r="1.5" stroke="currentColor" stroke-width="1.4"/><path d="m4 18 5-5 4 4 3-3 4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Coming soon</span></div>';
+    }
 
     var amen = p.amenities.map(function (a) {
       return "<li>" + SVG_CHECK + "<span>" + a + "</span></li>";
@@ -298,7 +301,7 @@
       "</div></section>" +
 
       '<section class="gallery"><div class="wrap">' +
-        '<div class="gallery-main"><img id="gallery-hero" src="' + img(p.gallery[0], 1300) + '" alt="' + p.name + '" /></div>' +
+        '<div class="gallery-main"><img id="gallery-hero" src="' + img(p.hero, 1300) + '" alt="' + p.name + '" /></div>' +
         '<div class="gallery-thumbs">' + thumbs + "</div>" +
       "</div></section>" +
 

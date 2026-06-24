@@ -613,3 +613,14 @@ section { position: relative; }
   .site-header.menu-open .nav-links .mobile-only { display: block; }
   .site-header.menu-open .nav-links .mobile-only a { color: var(--accent); font-weight: 600; }
 }
+
+/* Gallery "Coming soon" placeholder tiles (no reused stock photos) */
+.gallery-thumbs .soon {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px;
+  aspect-ratio: 16/11; border-radius: 12px;
+  border: 1px dashed var(--line-2);
+  background: var(--cream-2);
+  color: var(--muted);
+  font-size: .72rem; font-weight: 600; letter-spacing: .01em; text-align: center;
+}
+.gallery-thumbs .soon svg { width: 22px; height: 22px; opacity: .65; }
