@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Communities — Loby Property Management | Los Angeles Apartments</title>
-<meta name="description" content="Browse Loby's 42 multifamily communities across Los Angeles — from Downtown lofts to Westside garden apartments. 2,123 homes, now leasing." />
+<title>Find a Home — Loby Property Management | Los Angeles Apartments</title>
+<meta name="description" content="Loby manages 2,123 apartment homes across nine Los Angeles neighborhoods — many leasing before they're listed. Tell us what you're looking for and our team will match you." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="preconnect" href="https://images.unsplash.com" />
@@ -18,47 +18,103 @@
 <main>
 <section class="page-hero">
   <div class="wrap reveal">
-    <div class="breadcrumb"><a href="index.html">Home</a> · Communities</div>
-    <span class="eyebrow">42 communities · 2,123 homes</span>
-    <h1>Find your next home in Los Angeles.</h1>
-    <p class="lede">Every Loby community is professionally managed, pet-friendly, and backed by 24/7 maintenance. Filter by neighborhood, then click any community to explore floor plans, amenities, and availability.</p>
-    <div class="chips">
-      <button class="chip active" data-filter="all">All neighborhoods</button>
-      <button class="chip" data-filter="dtla">Downtown LA</button>
-      <button class="chip" data-filter="ktown">Koreatown</button>
-      <button class="chip" data-filter="hwd">Hollywood</button>
-      <button class="chip" data-filter="midwilshire">Mid-Wilshire</button>
-      <button class="chip" data-filter="silverlake">Silver Lake</button>
-      <button class="chip" data-filter="echo">Echo Park</button>
-      <button class="chip" data-filter="culver">Culver City</button>
-      <button class="chip" data-filter="marvista">Mar Vista</button>
-      <button class="chip" data-filter="highland">Highland Park</button>
+    <div class="breadcrumb"><a href="index.html">Home</a> · Find a home</div>
+    <span class="eyebrow">Find your home</span>
+    <h1>Let's find your next home in LA.</h1>
+    <p class="lede">Loby manages 2,123 apartment homes across nine Los Angeles neighborhoods — and many lease before they're ever listed publicly. Tell us what you're looking for and our leasing team will reach out with current and upcoming matches, usually within one business day.</p>
+  </div>
+</section>
+
+<section class="pad-t" style="padding-bottom: clamp(56px,8vw,110px);">
+  <div class="wrap contact-grid">
+    <div class="reveal">
+      <span class="eyebrow">Why start here</span>
+      <h2>The best homes never hit the listings.</h2>
+      <p class="lede">Share your preferences once and skip the endless scrolling. We do the matching and bring you homes that actually fit.</p>
+      <ul class="checklist" style="margin-top:1.4rem;">
+        <li><svg viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>First access to off-market homes</b><span>Hear about openings before they're advertised anywhere.</span></div></li>
+        <li><svg viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>Matched to your budget &amp; neighborhood</b><span>Only homes that fit what you actually want — no spam.</span></div></li>
+        <li><svg viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>One real point of contact</b><span>A person on our leasing team, back to you within a business day.</span></div></li>
+        <li><svg viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>Tours on your schedule</b><span>In-person or self-guided, often same week.</span></div></li>
+      </ul>
+      <div style="display:flex;gap:1rem;padding-top:1.4rem;margin-top:.6rem;border-top:1px solid var(--line);align-items:center;">
+        <span aria-hidden="true" style="width:46px;height:46px;border-radius:12px;background:var(--accent-soft);color:var(--accent-dark);display:grid;place-items:center;flex:0 0 auto;"><svg viewBox="0 0 24 24" fill="none" style="width:22px;height:22px;"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span>
+        <div><b>Prefer to call?</b><br><span style="color:var(--ink-soft);">Our leasing team is at <a href="tel:+16693037340" style="color:var(--accent);font-weight:600;">(669) 303-7340</a>, Mon–Fri 8am–7pm.</span></div>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <form class="form-card" data-demo>
+        <div class="form-ok">Thanks! Your request is in — a Loby leasing specialist will reach out within one business day with homes that match what you're looking for.</div>
+        <div class="field-row">
+          <div class="field"><label for="fn">First name</label><input id="fn" type="text" placeholder="Jane" required /></div>
+          <div class="field"><label for="ln">Last name</label><input id="ln" type="text" placeholder="Doe" required /></div>
+        </div>
+        <div class="field-row">
+          <div class="field"><label for="em">Email</label><input id="em" type="email" placeholder="jane@email.com" required /></div>
+          <div class="field"><label for="ph">Phone</label><input id="ph" type="tel" placeholder="(669) 303-7340" /></div>
+        </div>
+        <div class="field">
+          <label for="hood">Preferred neighborhood(s)</label>
+          <select id="hood">
+            <option>Open to anywhere in LA</option>
+            <option>Downtown LA</option>
+            <option>Koreatown</option>
+            <option>Hollywood / East Hollywood</option>
+            <option>Mid-Wilshire</option>
+            <option>Silver Lake</option>
+            <option>Echo Park</option>
+            <option>Culver City</option>
+            <option>Mar Vista / Westside</option>
+            <option>Highland Park</option>
+          </select>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="beds">Bedrooms</label>
+            <select id="beds"><option>Studio</option><option>1 bedroom</option><option>2 bedrooms</option><option>3+ bedrooms</option><option>Flexible</option></select>
+          </div>
+          <div class="field">
+            <label for="budget">Monthly budget</label>
+            <select id="budget"><option>Under $2,200</option><option>$2,200 – $2,800</option><option>$2,800 – $3,500</option><option>$3,500 – $4,500</option><option>$4,500+</option></select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="move">Move-in timing</label>
+          <select id="move"><option>As soon as possible</option><option>Within 30 days</option><option>1–2 months</option><option>Just exploring</option></select>
+        </div>
+        <div class="field"><label for="notes">Anything else? (pets, parking, must-haves)</label><textarea id="notes" placeholder="e.g. One cat, need parking, prefer in-unit laundry…"></textarea></div>
+        <button class="btn btn-primary btn-lg" type="submit" style="width:100%;">Request my matches</button>
+        <p class="form-note">By submitting you agree to be contacted by Loby Property Management about available homes. We never sell your information.</p>
+      </form>
     </div>
   </div>
 </section>
 
-<section style="padding-bottom: clamp(56px,8vw,110px);">
+<!-- Neighborhoods served (general, no individual listings) -->
+<section class="pad bg-cream2">
   <div class="wrap">
-    <div class="prop-grid" id="prop-grid" style="margin-top:8px;"></div>
-
-    <div class="cta-band" style="padding-top: clamp(50px,7vw,90px); padding-bottom:0;">
-      <div class="cta-inner reveal">
-        <div>
-          <h2>Don't see the right fit yet?</h2>
-          <p>New homes open up across our 42 communities every week. Tell us what you're looking for and we'll match you — and notify you the moment something opens.</p>
-        </div>
-        <div class="cta-actions">
-          <a class="btn btn-primary btn-lg" href="index.html#contact">Get matched</a>
-          <a class="btn btn-light btn-lg" href="residents.html">Resident services</a>
-        </div>
-      </div>
+    <div class="section-head center reveal">
+      <span class="eyebrow">Where we operate</span>
+      <h2>Nine neighborhoods. One easy way in.</h2>
+      <p class="lede">From the Arts District to the Westside, we manage homes across the city's most-loved areas.</p>
+    </div>
+    <div class="chips reveal" style="justify-content:center;margin-top:32px;">
+      <span class="chip">Downtown LA</span>
+      <span class="chip">Koreatown</span>
+      <span class="chip">Hollywood</span>
+      <span class="chip">Mid-Wilshire</span>
+      <span class="chip">Silver Lake</span>
+      <span class="chip">Echo Park</span>
+      <span class="chip">Culver City</span>
+      <span class="chip">Mar Vista</span>
+      <span class="chip">Highland Park</span>
     </div>
   </div>
 </section>
 </main>
 
 <div id="footer-root"></div>
-<script src="data.js"></script>
 <script src="site.js"></script>
 </body>
 </html>

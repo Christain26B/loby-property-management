@@ -12,7 +12,7 @@
   var MARK = '<span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M5 21V8.5L12 4l7 4.5V21h-5v-6h-4v6H5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" fill="rgba(255,255,255,.18)"/></svg></span>';
 
   var NAV = [
-    { href: "properties.html", label: "Communities", match: ["properties.html", "property.html"] },
+    { href: "properties.html", label: "Find a home", match: ["properties.html", "property.html"] },
     { href: "residents.html", label: "Residents", match: ["residents.html"] },
     { href: "owners.html", label: "Owners", match: ["owners.html"] },
     { href: "index.html#about", label: "About", match: [] },
@@ -59,7 +59,7 @@
             '<a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="none"><path d="M4 4l16 16M20 4 4 20" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>' +
           "</div>" +
         "</div>" +
-        '<div class="footer-col"><h4>Explore</h4><ul><li><a href="properties.html">Find a home</a></li><li><a href="properties.html">Communities</a></li><li><a href="residents.html">Resident portal</a></li><li><a href="index.html#about">About us</a></li></ul></div>' +
+        '<div class="footer-col"><h4>Explore</h4><ul><li><a href="properties.html">Find a home</a></li><li><a href="residents.html">Residents</a></li><li><a href="owners.html">Owners</a></li><li><a href="index.html#about">About us</a></li></ul></div>' +
         '<div class="footer-col"><h4>Owners</h4><ul><li><a href="owners.html">Management services</a></li><li><a href="owners.html#proposal">Request a proposal</a></li><li><a href="owners.html">Owner login</a></li><li><a href="index.html#contact">Contact us</a></li></ul></div>' +
         '<div class="footer-col"><h4>Contact</h4><ul><li><a href="tel:+16693037340">(669) 303-7340</a></li><li><a href="mailto:hello@lobypm.com">hello@lobypm.com</a></li><li>3550 Wilshire Blvd, #1400</li><li>Los Angeles, CA 90010</li></ul></div>' +
       "</div>" +
